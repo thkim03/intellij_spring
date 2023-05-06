@@ -1,0 +1,2 @@
+car=kr.thkim.ch3.diCopy1.SportsCar
+engine=kr.thkim.ch3.diCopy1.Engine
