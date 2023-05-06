@@ -29,8 +29,8 @@ class AppContext {
     private void doComponentScan() {
         try {
             // 1. 패키지내의 클래스 목록을 가져온다.
-            // 2. 반복문으로 클래스를 하나씩 읽어와서 @Component가 붙어 있는지 확인
-            // 3. @Component가 붙어있으면 객체를 생성하여 Map에 저장
+            // 2. 반복문으로 클래스를 하나씩 읽어와서 @Component가 붙어 있는지 확인.
+            // 3. @Component가 붙어있으면 객체를 생성하여 Map에 저장.
             ClassLoader classLoader = AppContext.class.getClassLoader();
             ClassPath classPath = ClassPath.from(classLoader);
 
